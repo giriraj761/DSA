@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Frames</title>
+   </head>
+
+	
+   <frameset rows = "33%,33%,33%">
+
+      <frame name = "main" src = "./content1.html" />
+      
+      <frameset cols ="25%,50%,25%">
+        <frame name = "main" src = "./content2.html" />
+        <frame name = "top" src = "./content3.html" />
+        <frame name = "top" src = "./content4.html" />
+     </frameset>
+      
+      
+      <frame name = "bottom" src = "./content5.html" />
+   
+      <noframes>
+         <body> frames not support </body>
+      </noframes>
+      
+   </frameset>
+
+</html>

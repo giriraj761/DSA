@@ -1,0 +1,66 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+.container{
+    width:1440px;
+    margin: 0 auto;
+}
+.titlepart{
+    text-align: center;
+    color: rgb(9, 72, 134); 
+    padding: 0px 45px 0 45px;
+    text-decoration: underline;
+}
+.contents{
+    margin-top: 10px;
+    padding: 10px;
+}
+.image{
+    text-align: center;
+}
+img{
+    border: solid;
+}
+.text_contents h4{
+    padding: 10px;
+    line-height: 30px;
+}
+.text_contents{
+    margin: 0 40px 0 40px;
+    color: darkslategrey;
+}
+.hr_line{
+    margin: -30px 30px 30px 30px;
+    padding: 10px;
+}
+.linkpart{
+    text-align: right;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+}
+.linkpart a:first-child{
+    margin-bottom: -30px;
+    padding-bottom: 0px;
+    line-height: 20%;
+}
+.linkpart h4{
+    padding-bottom: -20px;
+}
+.anthem{
+    padding: 20px ;
+    text-align: center;
+    color: darkslategrey;
+}
+.anthem h2{
+    padding:20px 0 0 0px;
+}
+.anthem h5{
+    margin-top: -10px;
+}
+a:visited{
+    color: red;
+}
+.my_info:visited{
+    color: rgb(52, 182, 91);
+}

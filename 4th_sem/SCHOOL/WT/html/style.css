@@ -1,0 +1,36 @@
+.container{
+    width:1080px;
+    margin: 0 auto;
+}
+.myname{
+    padding: -15px;
+    margin-bottom: -5px;
+}
+.myroll{
+    margin-top: 5px;
+}
+.myname,.myroll,.about{
+    text-align: center;
+}
+body {
+    background-color: red;
+    background-image:
+      radial-gradient(
+        rgb(122, 228, 196),
+        #6aebc4
+      );
+  }
+img{
+    border-radius: 50%;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.child1{
+    padding: 10px;
+    margin-right: -700px;
+}
+.child2{
+    flex: 5;
+}

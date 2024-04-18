@@ -1,0 +1,21 @@
+
+DECLARE
+
+a NUMBER:= &a
+b NUMBER:= &b
+c NUMBER:= &c
+max NUMBER;
+
+BEGIN
+max :=&a;
+
+if b>max then
+	max :=&b;
+
+if c>max then
+	max :=&c;
+
+dbms_output.Put_line('Greatest number is = '||max);
+END;
+
+/

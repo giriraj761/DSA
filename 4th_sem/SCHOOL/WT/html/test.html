@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: auto;
+        max-width: 1000px;
+        text-align: center;
+        background-color: rgb(252, 255, 97);
+        color: rgb(15, 15, 15);
+      }
+      form {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        margin: auto;
+        padding: 20px;
+        width: fit-content;
+      }
+      div {
+        display: inline-block;
+        padding: 25px;
+        margin: 20px;
+        max-width: 200px;
+        width: fit-content;
+        height: 250px;
+        background-color: rgb(255, 71, 163);
+        color: rgb(22, 22, 22);
+        border-radius: 10px;
+      }
+      div > img {
+        margin: auto;
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      div > input[type="number"] {
+        display: inline-block;
+        width: 50%;
+        padding: 5px;
+        border-radius: 8px;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+      }
+      input[type="submit"] {
+        padding: 10px;
+        width: 70px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is your vegetable cart.</h1>
+    <p>Please select the number of vegetable you want to buy.</p>
+    <form action="">
+      <div>
+        <img src="./vegi.jfif" alt="" />
+        <h1>Onion</h1>
+        <label for="Onion">Kilograms :</label>
+        <input name="Onion" type="number" />
+      </div>
+      <div>
+        <img src="./vegi.jfif" alt="" />
+        <h1>Potato</h1>
+        <label for="potato">Kilograms :</label>
+        <input name="potato" type="number" />
+      </div>
+      <div>
+        <img src="./vegi.jfif" alt="" />
+        <h1>Food</h1>
+        <label for="garlic">Kilograms :</label>
+        <input name="garlic" type="number" />
+      </div>
+      <div>
+        <img src="./vegi.jfif" alt="" />
+        <h1>Ginger</h1>
+        <label for="ginger">Kilograms :</label>
+        <input name="ginger" type="number" />
+      </div>
+      <div>
+        <img src="./vegi.jfif" alt="" />
+        <h1>Cabbage</h1>
+        <label for="cabbage">Kilograms :</label>
+        <input name="cabbage" type="number" />
+      </div>
+      <div>
+        <img src="./vegi.jfif" alt="" />
+        <h1>Cauliflower</h1>
+        <label for="cauliflower">Kilograms :</label>
+        <input name="cauliflower" type="number" />
+      </div>
+      <br /><br />
+      <input type="submit" value="BUY" />
+    </form>
+  </body>
+</html>

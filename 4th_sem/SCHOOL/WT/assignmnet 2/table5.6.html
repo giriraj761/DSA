@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example of Nested Table</title>
+
+    <style>
+        td{
+            border: 1px solid black;
+            
+        }
+        .cell{
+            padding: 20px;
+        }
+        .empty{
+            visibility: hidden;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <table border="4" bordercolor="green">
+      <tr>
+        <td class="cell">table 1</td>
+        <td >
+          Table 1
+
+          <table border="6" bordercolor="blue">
+            <tr>
+                <td  class="cell">table 2</td>
+                <td  class="cell" colspan="2">table 2</td>
+              <!-- <td class=" empty"> ..</td> -->
+              
+            </tr>
+            <tr>
+                <td  class="cell">table 2</td>
+                <td  class="cell" colspan="2">table 2</td>
+              <!-- <td class="empty"> ..</td> -->
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td  class="cell">Table 1</td>
+        <td  class="cell">Table 1</td>
+      </tr>
+    </table>
+  </body>
+</html>

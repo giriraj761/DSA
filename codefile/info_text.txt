@@ -1,0 +1,18 @@
+
+use Dr.mustabas roadmap for devloping concepts by solving competative coding questions 
+
+
+
+WORK!!!WORK!!!WORK!!!WORK 
+
+JUST WORK
+PRATICE!!!
+
+
+1.fast and slow concept.(array one triversal)
+2.kadnes algorithm
+3.sorting techniques 
+4.advance pattern problems
+5.Pointers too much Pointers
+6.master DS
+7.advanced algorithm that are used day to day by all the major comapanies

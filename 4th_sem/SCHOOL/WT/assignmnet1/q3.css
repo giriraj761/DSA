@@ -1,0 +1,8 @@
+h1{
+    color: aqua;
+}
+body{
+    transform: translateY(calc(50vh - 140%));
+    text-align: center;
+    background-color: rgb(173, 1, 1);
+}

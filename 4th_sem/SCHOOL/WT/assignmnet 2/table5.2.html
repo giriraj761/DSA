@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+          border: 1px solid black;
+          margin: auto;
+          padding: 10px;
+        }
+        td{
+            width: 20px;
+            height: 20px;
+        }
+        table{
+            border-collapse: separate;
+          border-spacing: 0;
+        }
+        .emptydata {
+          visibility: hidden;
+          padding: 0;
+          height: 40px;
+          width: 0;
+        }
+        .emptydatab{
+          visibility: hidden;
+          width: 40px;
+          height: 0px;
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3" rowspan="2" style="border-right:none;"> </td>
+            <td rowspan="2" style="border-right:none; border-left:2px dashed rgb(255, 0, 0);"> </td>
+            <td colspan="2" rowspan="2" style="border-left:2px dashed rgb(255, 0, 0);"> </td>
+            <td rowspan="2"> </td>
+            <td colspan="3" rowspan="2" style="border-bottom:none;"> </td>
+            <td class="emptydata"></td>
+        </tr>
+        <tr>
+            <td class="emptydata"></td>
+        </tr>
+        <tr>
+            <td colspan="3"> </td>
+            <td style="border-bottom:none;"> </td>
+            <td colspan="2"> </td>
+            <td> </td>
+            <td colspan="3" style="border-bottom:none; border-top:2px dashed red;"> </td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2" style="border-bottom: none"> </td>
+            <td rowspan="2" style="border-top: 2px dashed red;" > </td>
+            <td colspan="2" rowspan="2"> </td>
+            <td rowspan="2"> </td>
+            <td colspan="3" rowspan="2" style="border-top:2px dashed red;"> </td>
+            <td class="emptydata"></td>
+        </tr>
+        <tr>
+            <td class="emptydata"></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="border-top: 2px dashed red;"> </td>
+            <td style="border-right: 2px dashed red;"> </td>
+            <td colspan="2" style="border-left:none; border-right:none;"> </td>
+            <td style="border-left: 2px dashed red;"> </td>
+            <td colspan="3" > </td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2"> </td>
+            <td rowspan="2"> </td>
+            <td colspan="2" rowspan="2" style="border-right:none;"> </td>
+            <td rowspan="2" style="border-right:none; border-left:2px dashed rgb(255, 0, 0);"> </td>
+            <td colspan="3" rowspan="2"style="border-left:2px dashed rgb(255, 0, 0);"> </td>
+            
+            <td class="emptydata"></td>
+        </tr>
+        <tr>
+            <td class="emptydata"></td>
+        </tr>
+        <tr>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+            <td class="emptydatab"></td>
+        </tr>
+    </table>
+</body>
+</html>

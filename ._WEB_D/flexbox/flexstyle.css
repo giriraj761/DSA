@@ -1,0 +1,204 @@
+
+body
+{
+    background-color: palegoldenrod;
+}
+.container
+{
+    
+    max-width: 1080px;
+    background-color: palegoldenrod;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: baseline;
+   
+}
+.flexbody
+{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    
+}
+img{
+    height: 40% !important;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.flexitem
+{
+    height: 500px;
+    width: 27%;
+    text-align: center;
+    margin: 108px 15px 8px 5px;
+    min-width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border: 1px solid rgb(201, 190, 190);
+    border-radius: 5px;
+    font-size: 16px;
+}
+#flexitem1
+{
+    background-color: chartreuse;
+}
+#flexitem2
+{
+    background-color: gold;
+}
+#flexitem3
+{
+    background-color:wheat;
+}
+#flexitem4
+{
+    background-color: magenta;
+}
+#flexitem5
+{
+    background-color: yellow;
+}
+#flexitem6
+{
+    background-color: cyan;
+}
+.button {
+    background-color: #121212;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+ 
+.startbackground{
+    margin: -10px;
+    background-image: url(./oregami\ red\ illustrator.jpg);
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-position: top center;
+    background-size: contain;
+    background-color: black;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.navbar
+{
+    margin: 10px -10px -10px -10px;
+    max-height: 100px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    background-color: #121212;
+    padding: 10px;
+    color: aliceblue;
+}
+.navbar ul{
+    /* display: inline-flex; */
+    list-style: none;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+.navbar ul li{
+    padding: 0px 25px ;
+    display: inline-block;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.toright{
+    float: right;
+    margin-right: 50px;
+}
+.homestrech
+{
+    margin-left: 50px;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+    color: aliceblue;
+}
+.navbarscreen700
+{
+    display: none;
+}
+ #btn1
+ {
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 4px 5px 13px rgba(0, 0, 0, 0.11);
+    background-color: rgba(31, 226, 226, 0.884);
+ }
+
+@media screen and (max-width: 700px){
+    .navbar ul li{
+        display: none;
+    }
+    .navbarscreen700 
+    {
+        display: block;
+        margin: 10px -10px -10px -10px;
+        max-height: 100px;
+        /* justify-content: center; */
+        position: relative;
+        background-color: #121212;
+        padding: 20px;
+        color: aliceblue;
+
+    }
+    .navbar{
+        display: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        max-height: 100px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #121212;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .navbarscreen700 ul{
+          list-style: none;
+          max-height: 100px;
+          /* padding: 10px 20px; */
+      }
+      .navbarscreen700 li{
+        list-style: none;
+        padding: 10px 10px;
+    }
+    .navbarscreen700 span{
+        padding-left: 50px;
+    }
+
+}

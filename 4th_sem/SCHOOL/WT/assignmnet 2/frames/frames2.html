@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Frames</title>
+   </head>
+	
+   <frameset rows = "40%,60%">
+
+    <frame name = "main" src = "./content1.html" />
+      
+      <frameset cols ="25%,50%,25%">
+         <frame name = "main" src = "./content2.html" />
+         <frame name = "top" src = "./content1.html" />
+         <frame name = "top" src = "./content4.html" />
+      </frameset>
+   
+      <noframes>
+         <body> frames not support </body>
+      </noframes>
+      
+   </frameset>
+
+</html>
+

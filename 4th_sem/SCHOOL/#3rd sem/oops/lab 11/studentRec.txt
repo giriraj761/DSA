@@ -1,0 +1,14 @@
+13
+giriraj male 171 60
+Rishi female 165 68
+Kumar male 173 70
+Liam male 173 56
+Noah male 175 78
+Oliver female 164 67
+Elijah female 167 83
+William	male 177 96
+James male 179 56
+Benji male 171 45
+Lucas female 160 23
+Henry male 170 54
+Alexa female 174 89
